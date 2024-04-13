@@ -1,0 +1,42 @@
+{
+  "name": "scoria",
+  "displayName": "Scoria",
+  "description": "An OLED/Pure Black theme with a bit of red",
+  "publisher": "zyplos",
+  "author": "Zyplos (https://zyplos.dev)",
+  "version": "1.0.0",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "OLED",
+    "AMOLED",
+    "Pure Black",
+    "Dark Theme"
+  ],
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Scoria",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Scoria-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zyplos/scoria.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zyplos/scoria/issues"
+  }
+}
